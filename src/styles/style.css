@@ -1,0 +1,66 @@
+@import url('reset.css');
+
+body {
+    font-family: var(--font-primary);
+    background-color: var(--color-background);
+    color: var(--color-text);
+}
+
+.container-calculator{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 56vh;
+}
+
+.welcome {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+.opitions {
+    padding: 5px;
+}
+
+.btn-theme{
+    border-radius: 10px;
+    font-size: 25px;
+    cursor: pointer;
+    margin: 5px;
+    padding: 2.5px;
+}
+
+.btn-theme:hover {
+    border-radius: 20px;
+    transition-duration: 0.4s;
+    transform: scale(1.1);
+}
+
+.calculator {
+    text-align: center;
+    border: 2px solid #0051FF;
+    border-radius: 10px;
+}
+
+.display {
+    margin: 10px;
+    padding: 10px;
+}
+
+.result {
+    width: 250px;
+    height: 40px;
+    font-size: 20px;
+    text-align: right;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding: 5px;
+}
+
+.btns {
+    display: grid;
+    grid-template-columns: repeat(4, 60px);
+    grid-gap: 10px;
+}

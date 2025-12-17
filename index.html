@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/styles/reset.css">
+    <link rel="stylesheet" href="/src/styles/style.css">
+    <title>Calculadora 1</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <section class="container-calculator">
+        <div class="welcome">
+            <h1>Welcome to the Calculator</h1>
+            <div class="opitions">
+                <button class="btn-theme" id="light-mode"><i class="fa-solid fa-sun"></i></button>
+                <button class="btn-theme" id="dark-mode"><i class="fa-solid fa-moon"></i></button>
+            </div>
+        </div>
+        <div class="calculator">
+            <form class="calculo">
+                <div class="display">
+                    <input type="text" class="result" id="result" disabled>
+                </div>
+                <br>
+                <div class="btns">
+                    <button type="button" class="btn" value="7">7</button>
+                    <button type="button" class="btn" value="8">8</button>
+                    <button type="button" class="btn" value="9">9</button>
+                    <button type="button" class="btn operador" value="/"><i class="fa-solid fa-divide"></i></button>
+                    <button type="button" class="btn" value="4">4</button>
+                    <button type="button" class="btn" value="5">5</button>
+                    <button type="button" class="btn" value="6">6</button>
+                    <button type="button" class="btn operador" value="*"><i class="fa-solid fa-xmark"></i></button>
+                    <button type="button" class="btn" value="1">1</button>
+                    <button type="button" class="btn" value="2">2</button>
+                    <button type="button" class="btn" value="3">3</button>
+                    <button type="button" class="btn operador" value="-"><i class="fa-solid fa-minus"></i></button>
+                    <button type="button" class="btn" value=".">.</button>
+                    <button type="button" class="btn" value="0">0</button>
+                    <button type="button" class="btn clear operador" value="C"><i
+                            class="fa-duotone fa-solid fa-delete-left"></i></button>
+                    <button type="button" class="btn operador" value="+"><i class="fa-solid fa-plus"></i></button>
+                    <button type="button" class="btn igual operador" value="="><i
+                            class="fa-solid fa-equals"></i></button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <script src="/src/scripts/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+:root {
+    /* font */
+    --font-primary: 'Fugaz One', cursive;
+
+    /* Dark theme */
+    --background-dark: #17171C;
+    --Dark-color-text: #FFFF;
+
+    /* btn */
+    --btn-Dark1: #4B5EFC;
+    --btn-Dark2: #4E505F;
+    --btn-Dark3: #212121;
+
+    /* Light theme */
+    --background-light: #FFFF;
+    --Light-color-text: #000000;
+
+    /* btn */
+    --btn-Light1: #4B5EFC;
+    --btn-Light2: #D2D3DA;
+    --btn-Light3: #FFFFFF;
+}
